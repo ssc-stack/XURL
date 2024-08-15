@@ -20,7 +20,7 @@ public class XUrlMain {
     System.out.println(url3);
     System.out.println(url4);
 
-    // Update new URL mapping to a custom short URL
+    // Update new URL mapping to a custom short URL//
     String url5 = xUrl.registerNewUrl("http://abc5.com", "http://short.url/test1");
     String url6 = xUrl.registerNewUrl("http://abc6.com", "http://short.url/test2");
     // Try to update new URL to map to existing short URL, should return null
